@@ -1,0 +1,59 @@
+.card {
+  display: inline-block;
+  width: 320px;
+  border: 1px solid lightgray;
+  background: lightgray;
+  margin: 5px;
+}
+
+.card-header {
+  height: 240px;
+}
+
+.btn-delete {
+  position: relative;
+  bottom: 250px;
+  left: 232px;
+  border-radius: 0px;
+}
+
+.video-thumb {
+  width: 100%;
+  cursor: pointer;
+}
+
+.duration-label {
+  position: relative;
+  bottom: 40px;
+  left: 270px;
+  background: black;
+  padding: 1px 5px;
+  border-radius: 2px;
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+}
+
+.card-body {
+  margin-top: -10px;
+  padding: 0px 20px 10px;
+}
+
+.file-title {
+}
+
+.file-info .row {
+  display: block;
+}
+
+.file-info .row .value {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #abc;
+  color: #fff;
+  background: red;
+  text-transform: uppercase;
+  margin-left: 20px;
+}

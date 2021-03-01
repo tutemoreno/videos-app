@@ -1,0 +1,47 @@
+.drop-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 500px;
+  border: 2px dashed;
+  color: gray;
+  font-size: 20px;
+}
+
+.file-display-container {
+  width: auto;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.file-status-bar {
+  width: auto;
+  line-height: 50px;
+  height: 50px;
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.file-status-bar span {
+  display: inline-block;
+  margin: 0px 10px 0px;
+}
+
+.file-type {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13px;
+  padding: 0 4px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #abc;
+  color: #fff;
+  background: DodgerBlue;
+  text-transform: uppercase;
+}
+
+.file-name {
+  color: DodgerBlue;
+}
